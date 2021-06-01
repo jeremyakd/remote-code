@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWITCH</title>
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <input type="text" id="numeroDiaSem">
+            <br>
+            <input type="button" value="Confirmar" onclick="verificar()">
+        </form>
+    </div>
+    <script>
+        function verificar() {
+            var numeroDiaSem = parseInt(document.getElementById("numeroDiaSem").value);
+            console.log("numeroDiaSem", numeroDiaSem);
+            switch (numeroDiaSem) {
+                case 1:
+                    alert("El dia lunes es el " + numeroDiaSem + "° dia de la semana") ;
+                    break;
+                case 2:
+                    alert("El dia martes es el " + numeroDiaSem + "° dia de la semana") ;
+                    break;
+                case 3:
+                    alert("El dia miercoles es el "+ numeroDiaSem+ "° dia de la semana") ;
+                    break;
+                case 4:
+                    alert("El dia jueves es el "+ numeroDiaSem+ "° dia de la semana") ;
+                    break;
+                case 5:
+                    alert("El dia viernes es el "+ numeroDiaSem+ "° dia de la semana") ;
+                    break;
+                case 6:
+                    alert("El dia sabado es el "+ numeroDiaSem+ "° dia de la semana") ;
+                    break;
+                case 7:
+                    alert("El dia domigo es el "+ numeroDiaSem+ "° dia de la semana") ;
+                    break;
+                default:
+                    alert("No match!");
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>
