@@ -1,0 +1,48 @@
+/* elemento por id */
+h1#h1{ /* lo llamo por id*/
+    background: red;
+}
+
+header h2{
+    color: green;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    background: red;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    background: aqua;
+}
+/* si tiene primer hno un div*/
+/* div+div{
+    background:green;
+} */
+
+/* div con clase */
+div.divfeo{
+    background: yellow;
+}
+
+/* herencia directa
+hijos <p> de padre div */
+
+div > p{
+    color: blue;
+}
+
+div ~ div{
+    background: violet;
+}
+/*
+
+etiqueta 
+class
+id => unico
+
+*/
