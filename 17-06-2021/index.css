@@ -1,0 +1,53 @@
+p{
+    display: inline;
+}
+p.uno{
+    color: #555;
+    text-align: center;
+    text-decoration: overline;
+    letter-spacing: 2cm;
+    /*color con valor hexadecimal*/
+}
+
+p.dos{
+    color: rgba(225, 0, 0, 0.719);
+    text-align: center;
+    word-spacing: 15px;
+    /*color con la funcion rgb(solo color)
+    rgbs(con transparencia (0=>1)) */
+}
+
+p.tres{
+    /* Color con palabra reservada */
+    color: mediumblue;
+    text-align: right;
+}
+
+p.cuatro{
+    /* indentacion */
+    text-indent: 20px;
+}
+
+p.cinco{
+    text-transform: uppercase;
+    
+}
+
+p.seis{
+    text-transform: lowercase;
+}
+
+div{
+    width: 50px;
+    height: 50px;
+    background: yellow;
+}
+
+a{
+    text-decoration: none;
+}
+/* 
+color
+text-align
+text-decoration
+*/

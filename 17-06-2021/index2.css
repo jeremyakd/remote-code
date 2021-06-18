@@ -1,0 +1,43 @@
+/* Medidas Absolutas
+mm: milímetros.
+cm: centímetros.
+in: pulgada ("inches", en inglés). Una pulgada equivale a 2.54 centímetros.
+pt: puntos. Un punto equivale a 1 /72 de pulgada, es decir, unos 0.35 milímetros.
+pc: picas. Una pica equivale a 12 puntos, o aproximadamente a 4.23 milímetros.
+px: pixel. Es la unidad mínima de resolución de la pantalla. En realidad suele considerársela una unidad absoluta, relativa o híbrida dependiendo del criterio que se analice.
+*/
+
+
+p.cm{
+    font-size: 1cm;
+}
+
+p.inc{
+    font-size: 1in;
+}
+
+p.mil{
+    font-size: 1mm;
+}
+
+p.pt{
+    font-size: 1pt;
+}
+
+p.pica{
+    font-size: 1pc;
+}
+
+p.px{
+    font-size: 50px;
+}
+
+/*
+
+Medidas relativas:
+porcentaje
+em
+ex
+rem
+
+*/
