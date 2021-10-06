@@ -1,0 +1,58 @@
+body, span{
+    font-size: 30px;
+}
+
+p.em{
+    font-size: 1.2em;
+}
+
+p.ex{
+    font-size: 1.2ex;
+}
+span{
+    color: rgb(83, 153, 51);
+    
+}
+
+div{
+    height: 100px;
+    /* border: 10px solid black; */
+}
+
+div.fija{
+    width: 100px;
+    background-color: blue;
+}
+
+div.porcentual{
+    width: 30%;
+    margin: 5%;
+    background-color: green;
+    padding: 10px;
+}
+
+div.caja{
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+}
+a{
+    width: 200px;
+    height: 100px;
+    padding: 80px;
+}
+
+@media {
+    
+}
+
+/*
+100px
+120px
+
+
+input
+[type="pass"]{
+
+}*/
